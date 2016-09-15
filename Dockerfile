@@ -1,6 +1,6 @@
 FROM jupyter/scipy-notebook:latest
 
-# Provide some launchbot-specific labels
+# launchbot-specific labels
 LABEL name.launchbot.io="🌪 introduction to 🐍"
 LABEL workdir.launchbot.io="/usr/workdir"
 LABEL description.launchbot.io="A whirlwind introduction to Python."
